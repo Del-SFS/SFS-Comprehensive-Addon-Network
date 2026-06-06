@@ -1,0 +1,61 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  build-release:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x'
+    
+    - name: Extract version
+      id: version
+      run: |
+        $version = "${{ github.ref }}".Replace('refs/tags/v', '')
+        echo "VERSION=$version" >> $env:GITHUB_OUTPUT
+    
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Build Release
+      run: dotnet build --configuration Release --no-restore -p:Version=${{ steps.version.outputs.VERSION }}
+    
+    - name: Run tests
+      run: dotnet test --configuration Release --no-build --verbosity normal
+    
+    - name: Publish Release
+      run: dotnet publish --configuration Release --no-build -o ./publish -p:Version=${{ steps.version.outputs.VERSION }}
+    
+    - name: Create Release Assets
+      run: |
+        cd publish
+        7z a -tzip "../SCAN-${{ steps.version.outputs.VERSION }}-windows.zip" *
+        cd ..
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: SCAN-${{ steps.version.outputs.VERSION }}-windows.zip
+        draft: false
+        prerelease: ${{ contains(steps.version.outputs.VERSION, 'beta') || contains(steps.version.outputs.VERSION, 'alpha') }}
+        generate_release_notes: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: release-${{ steps.version.outputs.VERSION }}
+        path: SCAN-${{ steps.version.outputs.VERSION }}-windows.zip
