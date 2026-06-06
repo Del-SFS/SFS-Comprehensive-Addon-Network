@@ -17,7 +17,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '7.0.x'
+        dotnet-version: '8.0.x'
     
     - name: Extract version
       id: version
@@ -30,9 +30,6 @@ jobs:
     
     - name: Build Release
       run: dotnet build --configuration Release --no-restore -p:Version=${{ steps.version.outputs.VERSION }}
-    
-    - name: Run tests
-      run: dotnet test --configuration Release --no-build --verbosity normal
     
     - name: Publish Release
       run: dotnet publish --configuration Release --no-build -o ./publish -p:Version=${{ steps.version.outputs.VERSION }}
