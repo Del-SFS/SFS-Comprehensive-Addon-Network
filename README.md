@@ -9,9 +9,6 @@ SCAN, or SFSCAN as you prefer, is intended to be a mod manager that handles mod 
 - Basic Installation Test (without Management)                
 - First Real-World Installation Version
 
-## Links
-
-
 ## Status
 ![Static Badge](https://img.shields.io/badge/Language-C%23-purple)
 ![Static Badge](https://img.shields.io/badge/Framework-.NET-purple)
