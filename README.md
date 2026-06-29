@@ -11,9 +11,6 @@ SCAN, or SFSCAN as you prefer, is intended to be a mod manager that handles mod 
 
 ## Preview
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/356c5dfb-350b-4bfc-8d38-75d431ab21f2" />
-
-
-### Status
 ![Static Badge](https://img.shields.io/badge/Language-C%23-purple)
 ![Static Badge](https://img.shields.io/badge/Framework-.NET-purple)
 ![Static Badge](https://img.shields.io/badge/Compatibility-Windows-blue)
