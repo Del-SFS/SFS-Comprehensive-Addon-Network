@@ -1,4 +1,8 @@
-# Overview
+# Heads up - this project is for improving my C# skills, so don't expect many updates ;)
+
+---
+
+## Overview
 
 SCAN, or SFSCAN as you prefer, is intended to be a mod manager that handles mod dependencies and conflicts.                                            
 <sub>It's similar to CKAN, but I don't like to compare it because CKAN is much larger than SCAN</sub>
