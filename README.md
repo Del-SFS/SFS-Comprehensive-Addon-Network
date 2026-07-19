@@ -1,11 +1,8 @@
-# Heads up - this project is for improving my C# skills, so don't expect many updates ;)
-
----
-
+Unfortunately, this project has been discontinued, though it remains archived. However, I will be contributing to Roshan's SFSMI/Database :3
+```
 ## Overview
 
 SCAN, or SFSCAN as you prefer, is intended to be a mod manager that handles mod dependencies and conflicts.                                            
-<sub>It's similar to CKAN, but I don't like to compare it because CKAN is much larger than SCAN</sub>
 
 ## Goals for the SCAN <sub>SFSCAN</sub>
 
@@ -27,3 +24,4 @@ Lead Developer: Del
 
 **Spaceflight Simulator is a registered trademark of **[Team Curiosity](https://teamcuriosity.com)**
 This project is not affiliated with the official developers.**
+```
