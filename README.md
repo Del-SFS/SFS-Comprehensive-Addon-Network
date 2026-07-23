@@ -18,7 +18,7 @@ SCAN é uma solução completa para gerenciar mods no SFS que vai muito além de
 ┌─────────────────────────────────────┐
 │  SCAN Interface (WinForms/WPF)      │
 │  - Browse mods                      │
-│  - Install/Uninstall               │
+│  - Install/Uninstall                │
 │  - Manage dependencies              │
 └──────────────┬──────────────────────┘
                │
@@ -110,7 +110,6 @@ Este projeto **NÃO é afiliado** aos desenvolvedores oficiais.
 
 ## 💬 Suporte
 
-- **Discord**: [Servidor SFS](link_aqui)
 - **Forum**: [SFS Forum](https://sfsforum.com)
 - **Issues**: [GitHub Issues](https://github.com/Del-SFS/SFS-Comprehesive-Addon-Network/issues)
 
