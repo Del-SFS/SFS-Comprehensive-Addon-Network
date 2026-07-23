@@ -2,12 +2,6 @@
 
 SCAN, or SFSCAN as you prefer, is intended to be a mod manager that handles mod dependencies and conflicts.                                            
 
-## Goals for the SCAN <sub>SFSCAN</sub>
-
-- ~User Interface Test~            
-- Basic Installation Test (without Management)                
-- First Real-World Installation Version
-
 ## Preview
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/356c5dfb-350b-4bfc-8d38-75d431ab21f2" />        
 
