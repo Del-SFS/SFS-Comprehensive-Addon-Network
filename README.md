@@ -78,24 +78,16 @@ SCAN é uma solução completa para gerenciar mods no SFS que vai muito além de
 
 ### Uso Básico
 
-```
 1. Abra SCAN
 2. Navegue pelos mods disponíveis
 3. Clique em "Instalar" no mod desejado
 4. SCAN cuida do resto (dependências, conflitos, etc)
-```
 
 ## 📚 Documentação
 
 - [Como usar SCAN](./docs/USAGE.md)
 - [Adicionar um mod](./docs/CONTRIBUTING.md)
 - [Estrutura do projeto](./docs/ARCHITECTURE.md)
-
-## 🔗 Links Importantes
-
-- [Mod DataCenter](https://github.com/Del-SFS/Mod-DataCenter-SFS) - Banco de dados central de mods
-- [SFS no Steam](https://steamcommunity.com/app/1718870/)
-- [CKAN (Inspiração)](https://github.com/KSP-CKAN/CKAN)
 
 ## 🤝 Contribuindo
 
@@ -127,7 +119,6 @@ Este projeto **NÃO é afiliado** aos desenvolvedores oficiais.
 
 ## 💬 Suporte
 
-- **Forum**: [SFS Forum](https://sfsforum.com)
 - **Issues**: [GitHub Issues](https://github.com/Del-SFS/SFS-Comprehesive-Addon-Network/issues)
 
 **Made with ❤️ by Del**
