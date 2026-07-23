@@ -22,25 +22,16 @@ SCAN é uma solução completa para gerenciar mods no SFS que vai muito além de
 
 ## 🎮 Como Funciona?
 
-```
-┌─────────────────────────────────────┐
-│  SCAN Interface (WinForms/WPF)      │
-│  - Browse mods                      │
-│  - Install/Uninstall                │
-│  - Manage dependencies              │
-└──────────────┬──────────────────────┘
-               │
-        ┌──────▼────────┐
-        │  SCAN Engine  │
-        │  - Resolução  │
-        │  - Validação  │
-        │  - Instalação │
-        └──────┬────────┘
-               │
-        ┌──────▼──────────────┐
-        │  Mod DataCenter     │
-        │  (Schema + Index)   │
-        └─────────────────────┘
+```mermaid
+flowchart TD
+    A["🖥️ Interface SCAN (WinForms/WPF)<br/>• Navegar por mods<br/>• Instalar / Desinstalar<br/>• Gerenciar dependências"]
+
+    B["⚙️ SCAN Engine<br/>• Resolução de dependências<br/>• Validação<br/>• Instalação"]
+
+    C["📦 Mod DataCenter<br/>Esquema + Índice"]
+
+    A --> B
+    B --> C
 ```
 
 ## 🛠️ Recursos Planejados
