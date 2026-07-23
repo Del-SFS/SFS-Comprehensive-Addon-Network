@@ -69,14 +69,10 @@ flowchart TD
 - 🛠️ Versão Console    
 - 📅 Interface gráfica (WPF)   
 - 📅 API REST para integração  
-- 📅 Sistema de cache local  
-- 📅 Seletor de Versão do SFS  
-- 📅 Motor de resolução de dependências  
-- 📅 API REST para integração  
-- 📅 Suporte a múltiplas versões de mods  
-- 📅 Seletor de Versão do SFS  
-- 📅 Sistema de cache local  
-- 📅 Rollback de atualizações  
+- 📅 Sistema de cache local
+- 📅 Motor de resolução de dependências
+- 📅 Motor de resolução de Conflitos
+- 📅 Configurações para modo Escuro/Claro
 
 ## 📋 Requisitos
 
