@@ -45,10 +45,12 @@ SCAN é uma solução completa para gerenciar mods no SFS que vai muito além de
 
 ## 🛠️ Recursos Planejados
 
+**legenda**
 ✅ = Pronto   
 📅 = Planejado      
 🛠️ = Em progresso     
 
+**lista:**
 - 🛠️ Versão Console    
 - 📅 Interface gráfica (WPF)   
 - 📅 API REST para integração  
