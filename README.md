@@ -35,18 +35,23 @@ SCAN é uma solução completa para gerenciar mods no SFS que vai muito além de
         └─────────────────────┘
 ```
 
-## 🛠️ Recursos Planejados
+## 🛠️ Recursos Planejados Status
 
-- [ ] Interface gráfica (WPF)
-- [ ] API REST para integração
-- [ ] Sistema de cache local
-- [ ] Seletor de Versão do SFS
-- [ ] Motor de resolução de dependências
-- [ ] API REST para integração
-- [ ] Suporte a múltiplas versões de mods
-- [ ] Seletor de Versão do SFS
-- [ ] Sistema de cache local
-- [ ] Rollback de atualizações
+✅ = Pronto
+📅 = Planejado
+🛠️ = Em progresso
+
+- 🛠️ Versão Console
+- 📅 Interface gráfica (WPF)
+- 📅 API REST para integração
+- 📅 Sistema de cache local
+- 📅 Seletor de Versão do SFS
+- 📅 Motor de resolução de dependências
+- 📅 API REST para integração
+- 📅 Suporte a múltiplas versões de mods
+- 📅 Seletor de Versão do SFS
+- 📅 Sistema de cache local
+- 📅 Rollback de atualizações
 
 ## 📋 Requisitos
 
