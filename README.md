@@ -22,6 +22,8 @@ SCAN é uma solução completa para gerenciar mods no SFS que vai muito além de
 
 ## 🎮 Como Funciona?
 
+
+### Como o SCAN é organizado
 ```mermaid
 flowchart TD
     A["🖥️ Interface SCAN (WinForms/WPF)<br/>• Navegar por mods<br/>• Instalar / Desinstalar<br/>• Gerenciar dependências"]
@@ -33,7 +35,29 @@ flowchart TD
     A --> B
     B --> C
 ```
+---
+### Como o SCAN instala um mod
+```mermaid
+flowchart TD
+    A["👤 Usuário seleciona os mods"] --> B["✅ Clica em 'Aplicar'"]
 
+    B --> C["⚙️ SCAN Engine"]
+
+    C --> D["🔍 Analisa dependências"]
+    C --> E["🚫 Verifica conflitos"]
+
+    D --> F["📦 Consulta o Mod DataCenter"]
+    E --> F
+
+    F --> G["⬇️ Baixa os mods pelos links"]
+
+    G --> H["📂 Descompacta os arquivos"]
+
+    H --> I["🎮 Instala na pasta correta do Spaceflight Simulator"]
+
+    I --> J["✅ Instalação concluída"]
+```
+---
 ## 🛠️ Recursos Planejados
 
 **legenda**
