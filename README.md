@@ -1,7 +1,4 @@
-Unfortunately, this project has been discontinued, though it remains archived. However, I will be contributing to Roshan's SFSMI/Database :3
-
-```
-## Overview
+# Overview
 
 SCAN, or SFSCAN as you prefer, is intended to be a mod manager that handles mod dependencies and conflicts.                                            
 
@@ -25,4 +22,3 @@ Lead Developer: Del
 
 **Spaceflight Simulator is a registered trademark of **[Team Curiosity](https://teamcuriosity.com)**
 This project is not affiliated with the official developers.**
-```
