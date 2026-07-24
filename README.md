@@ -37,8 +37,11 @@ flowchart TD
     A --> B
     B --> C
 ```
+
 ---
+
 ### Como o SCAN instala um mod
+
 ```mermaid
 flowchart TD
     A["👤 Usuário seleciona os mods"] --> B["✅ Clica em 'Aplicar'"]
@@ -59,7 +62,9 @@ flowchart TD
 
     I --> J["✅ Instalação concluída"]
 ```
+
 ---
+
 ## 🛠️ Recursos Planejados
 
 **legenda**
