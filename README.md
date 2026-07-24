@@ -5,7 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/Framework-.NET-purple)
 ![Static Badge](https://img.shields.io/badge/Status-Active%20Development-green)
 ![GitHub License](https://img.shields.io/github/license/Del-SFS/SFS-Comprehensive-Addon-Network?style=flat&color=orange)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Del-SFS/SFS-Comprehensive-Addon-Network/total?style=plastic&label=Downloads&color=green)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Del-SFS/SFS-Comprehensive-Addon-Network/total?style=flat&label=Downloads&color=green)
 
 
 
