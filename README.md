@@ -4,7 +4,9 @@
 ![Static Badge](https://img.shields.io/badge/Language-C%23-purple)
 ![Static Badge](https://img.shields.io/badge/Framework-.NET-purple)
 ![Static Badge](https://img.shields.io/badge/Status-Active%20Development-green)
-![Licença GitHub](https://img.shields.io/github/license/Del-SFS/SFS-Comprehensive-Addon-Network)
+![GitHub License](https://img.shields.io/github/license/Del-SFS/SFS-Comprehensive-Addon-Network?style=flat&color=orange)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Del-SFS/SFS-Comprehensive-Addon-Network/total?style=plastic&label=Downloads&color=green)
+
 
 
 Um gerenciador de mods moderno e inteligente para **Spaceflight Simulator**, inspirado no famoso CKAN do Kerbal Space Program.
