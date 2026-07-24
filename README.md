@@ -10,7 +10,7 @@
 Um gerenciador de mods moderno e inteligente para **Spaceflight Simulator**, inspirado no famoso CKAN do Kerbal Space Program.
 <br>
 <br>
-## ✨ O que é SCAN?
+## 🎯 O que é SCAN?
 
 SCAN é uma solução completa para gerenciar mods no SFS que vai muito além de um simples instalador:
 
