@@ -67,7 +67,7 @@ flowchart TD
 
 ## 🛠️ Recursos Planejados
 
-**legenda**
+**legenda**        
 ✅ = Pronto   
 📅 = Planejado      
 🛠️ = Em progresso     
